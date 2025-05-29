@@ -1,0 +1,10 @@
+name: CI Pipeline
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a script
+        run: echo 'Hello, World!'
+![image](https://github.com/user-attachments/assets/116f6f47-0cb0-47da-8b38-80d25722593c)
